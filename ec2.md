@@ -20,14 +20,13 @@ Using AWS CLI, you can manage EC2 instances, security groups, volumes, and netwo
 
 **EC2 low level command | Common EC2 Operations**
 
-### list all ec2 instances:
+#### list all ec2 instances:
     ```
     aws ec2 describe-instances
     ```
 ### find instances-Id:
-    ```
     aws ec2 describe-instances --query "Reservations[].Instances[].InstanceId" --output table
-    ```
+
 ### check ec2 state:
     ```
     aws ec2 describe-instances --query "Reservations[].Instances[].{InstanceId:InstanceId, State:State.Name}" --output table
