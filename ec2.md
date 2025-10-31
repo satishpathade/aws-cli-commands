@@ -3,7 +3,7 @@
 This file contains AWS CLI commands**Amazon EC2 (Elastic Compute Cloud)** instances.  
 Amazon EC2 provides scalable computing capacity in the AWS cloud, allowing you to run virtual servers on-demand.
 
-Using AWS CLI, you can manage EC2 instances, security groups, volumes, and networking quickly and efficiently.
+**Using AWS CLI, you can manage EC2 instances, security groups, volumes, and networking quickly and efficiently.**
 
 ---
 
@@ -33,9 +33,8 @@ Using AWS CLI, you can manage EC2 instances, security groups, volumes, and netwo
     aws ec2 start-instances --instance-ids 'your-instanceID'                (id-single ec2 | ids-multiple ec2)
 
 **launch EC2: Default VPC**
-**Require**
 ```
-    --key component
+    Require
         --image-id → AMI ID to launch instance from.
         --count → Number of instances to launch.
         --instance-type → Instance size.
