@@ -33,8 +33,9 @@ Using AWS CLI, you can manage EC2 instances, security groups, volumes, and netwo
     aws ec2 start-instances --instance-ids 'your-instanceID'                (id-single ec2 | ids-multiple ec2)
 
 **launch EC2: Default VPC**
+**Require**
 ```
-    Require:key component
+    --key component
         --image-id → AMI ID to launch instance from.
         --count → Number of instances to launch.
         --instance-type → Instance size.
