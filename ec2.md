@@ -18,9 +18,9 @@ Using AWS CLI, you can manage EC2 instances, security groups, volumes, and netwo
         --subnet-id → Subnet ID for networking.  
 ```
 
-### EC2 low level command | Common EC2 Operations
+**EC2 low level command | Common EC2 Operations**
 
-**list all ec2 instances:**
+#### list all ec2 instances:
     aws ec2 describe-instances
 
 **find instances-Id:**
